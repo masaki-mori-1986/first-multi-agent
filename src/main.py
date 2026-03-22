@@ -3,7 +3,7 @@ import sys
 
 from dotenv import load_dotenv
 
-from agents_config import build_crew
+from crew import build_crew
 
 
 load_dotenv()

@@ -5,7 +5,11 @@ CrewAI + Ollama を使った最小構成のマルチエージェント（`Resear
 
 ## 構成
 
-- `src/agents_config.py`: エージェント、タスク、Crew 定義
+- `src/agents/researcher.py`: Researcher エージェント定義
+- `src/agents/writer.py`: Writer エージェント定義
+- `src/tasks/research_task.py`: 調査タスク定義
+- `src/tasks/writing_task.py`: 執筆タスク定義
+- `src/crew.py`: Crew 構築処理
 - `src/main.py`: エントリポイント
 - `.env.example`: Ollama 接続設定サンプル
 - `pyproject.toml` / `uv.lock`: `uv` による依存管理
